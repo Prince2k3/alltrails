@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0C335D28137B4A00E40A05 /* UpdateLocationAndGetNearbyRestaurantsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C335C28137B4A00E40A05 /* UpdateLocationAndGetNearbyRestaurantsUseCase.swift */; };
+		1E4EBD41281457C700F70896 /* UpdateLocationAndGetNearbyRestaurantsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4EBD40281457C700F70896 /* UpdateLocationAndGetNearbyRestaurantsUseCaseTests.swift */; };
+		1E4EBD4328146CF000F70896 /* UpdateLocationAndSearchNearbyRestaurantsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4EBD4228146CF000F70896 /* UpdateLocationAndSearchNearbyRestaurantsUseCaseTests.swift */; };
+		1E8B568C2811EAEB00D1792C /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8B568B2811EAEB00D1792C /* Core */; };
+		1E8B568E2811EAEB00D1792C /* Restaurants in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8B568D2811EAEB00D1792C /* Restaurants */; };
+		1E8B56902811EAEB00D1792C /* UI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8B568F2811EAEB00D1792C /* UI */; };
+		1E97F3DE281380E9005C6239 /* Restaurants+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E97F3DD281380E9005C6239 /* Restaurants+ViewModel.swift */; };
+		1EE49FA728148D43005AF2C8 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE49FA628148D43005AF2C8 /* Print.swift */; };
+		1EEFAE3A281382D900A23D41 /* UpdateLocationAndSearchNearbyRestaurantsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEFAE39281382D900A23D41 /* UpdateLocationAndSearchNearbyRestaurantsUseCase.swift */; };
 		1EF20DD1280F65190058734B /* AllTrailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DD0280F65190058734B /* AllTrailsApp.swift */; };
 		1EF20DD3280F65190058734B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DD2280F65190058734B /* ContentView.swift */; };
 		1EF20DD5280F65190058734B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF20DD4280F65190058734B /* Assets.xcassets */; };
 		1EF20DD8280F65190058734B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF20DD7280F65190058734B /* Preview Assets.xcassets */; };
-		1EF20DDA280F65190058734B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DD9280F65190058734B /* Persistence.swift */; };
-		1EF20DDD280F65190058734B /* AllTrails.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DDB280F65190058734B /* AllTrails.xcdatamodeld */; };
-		1EF20DE7280F651A0058734B /* AllTrailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DE6280F651A0058734B /* AllTrailsTests.swift */; };
-		1EF20DF1280F651A0058734B /* AllTrailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DF0280F651A0058734B /* AllTrailsUITests.swift */; };
-		1EF20DF3280F651A0058734B /* AllTrailsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF20DF2280F651A0058734B /* AllTrailsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,28 +30,21 @@
 			remoteGlobalIDString = 1EF20DCC280F65190058734B;
 			remoteInfo = AllTrails;
 		};
-		1EF20DED280F651A0058734B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EF20DC5280F65190058734B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1EF20DCC280F65190058734B;
-			remoteInfo = AllTrails;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0C335C28137B4A00E40A05 /* UpdateLocationAndGetNearbyRestaurantsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLocationAndGetNearbyRestaurantsUseCase.swift; sourceTree = "<group>"; };
+		1E4EBD40281457C700F70896 /* UpdateLocationAndGetNearbyRestaurantsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLocationAndGetNearbyRestaurantsUseCaseTests.swift; sourceTree = "<group>"; };
+		1E4EBD4228146CF000F70896 /* UpdateLocationAndSearchNearbyRestaurantsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLocationAndSearchNearbyRestaurantsUseCaseTests.swift; sourceTree = "<group>"; };
+		1E97F3DD281380E9005C6239 /* Restaurants+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Restaurants+ViewModel.swift"; sourceTree = "<group>"; };
+		1EE49FA628148D43005AF2C8 /* Print.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		1EEFAE39281382D900A23D41 /* UpdateLocationAndSearchNearbyRestaurantsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLocationAndSearchNearbyRestaurantsUseCase.swift; sourceTree = "<group>"; };
 		1EF20DCD280F65190058734B /* AllTrails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF20DD0280F65190058734B /* AllTrailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsApp.swift; sourceTree = "<group>"; };
 		1EF20DD2280F65190058734B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EF20DD4280F65190058734B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EF20DD7280F65190058734B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1EF20DD9280F65190058734B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1EF20DDC280F65190058734B /* AllTrails.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AllTrails.xcdatamodel; sourceTree = "<group>"; };
 		1EF20DE2280F651A0058734B /* AllTrailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTrailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EF20DE6280F651A0058734B /* AllTrailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsTests.swift; sourceTree = "<group>"; };
-		1EF20DEC280F651A0058734B /* AllTrailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTrailsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EF20DF0280F651A0058734B /* AllTrailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsUITests.swift; sourceTree = "<group>"; };
-		1EF20DF2280F651A0058734B /* AllTrailsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8B568C2811EAEB00D1792C /* Core in Frameworks */,
+				1E8B56902811EAEB00D1792C /* UI in Frameworks */,
+				1E8B568E2811EAEB00D1792C /* Restaurants in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,23 +65,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EF20DE9280F651A0058734B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0C335928137ADE00E40A05 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1EF20DD2280F65190058734B /* ContentView.swift */,
+				1EF20DD0280F65190058734B /* AllTrailsApp.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1E0C335A28137AE400E40A05 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EF20DD6280F65190058734B /* Preview Content */,
+				1EF20DD4280F65190058734B /* Assets.xcassets */,
+			);
+			name = "Supported Files";
+			sourceTree = "<group>";
+		};
+		1E0C335B28137AF700E40A05 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				1E0C335C28137B4A00E40A05 /* UpdateLocationAndGetNearbyRestaurantsUseCase.swift */,
+				1EEFAE39281382D900A23D41 /* UpdateLocationAndSearchNearbyRestaurantsUseCase.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		1E8B568A2811EAEB00D1792C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E97F3DB281380CE005C6239 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				1E97F3DC281380D3005C6239 /* ViewModels */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		1E97F3DC281380D3005C6239 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1E97F3DD281380E9005C6239 /* Restaurants+ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1EE49FA528148D43005AF2C8 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				1EE49FA628148D43005AF2C8 /* Print.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
 		1EF20DC4280F65190058734B = {
 			isa = PBXGroup;
 			children = (
 				1EF20DCF280F65190058734B /* AllTrails */,
 				1EF20DE5280F651A0058734B /* AllTrailsTests */,
-				1EF20DEF280F651A0058734B /* AllTrailsUITests */,
 				1EF20DCE280F65190058734B /* Products */,
+				1E8B568A2811EAEB00D1792C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,7 +141,6 @@
 			children = (
 				1EF20DCD280F65190058734B /* AllTrails.app */,
 				1EF20DE2280F651A0058734B /* AllTrailsTests.xctest */,
-				1EF20DEC280F651A0058734B /* AllTrailsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,12 +148,11 @@
 		1EF20DCF280F65190058734B /* AllTrails */ = {
 			isa = PBXGroup;
 			children = (
-				1EF20DD0280F65190058734B /* AllTrailsApp.swift */,
-				1EF20DD2280F65190058734B /* ContentView.swift */,
-				1EF20DD4280F65190058734B /* Assets.xcassets */,
-				1EF20DD9280F65190058734B /* Persistence.swift */,
-				1EF20DDB280F65190058734B /* AllTrails.xcdatamodeld */,
-				1EF20DD6280F65190058734B /* Preview Content */,
+				1EE49FA528148D43005AF2C8 /* Logging */,
+				1E97F3DB281380CE005C6239 /* Factories */,
+				1E0C335B28137AF700E40A05 /* Decorators */,
+				1E0C335A28137AE400E40A05 /* Supported Files */,
+				1E0C335928137ADE00E40A05 /* UI */,
 			);
 			path = AllTrails;
 			sourceTree = "<group>";
@@ -119,18 +168,10 @@
 		1EF20DE5280F651A0058734B /* AllTrailsTests */ = {
 			isa = PBXGroup;
 			children = (
-				1EF20DE6280F651A0058734B /* AllTrailsTests.swift */,
+				1E4EBD40281457C700F70896 /* UpdateLocationAndGetNearbyRestaurantsUseCaseTests.swift */,
+				1E4EBD4228146CF000F70896 /* UpdateLocationAndSearchNearbyRestaurantsUseCaseTests.swift */,
 			);
 			path = AllTrailsTests;
-			sourceTree = "<group>";
-		};
-		1EF20DEF280F651A0058734B /* AllTrailsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1EF20DF0280F651A0058734B /* AllTrailsUITests.swift */,
-				1EF20DF2280F651A0058734B /* AllTrailsUITestsLaunchTests.swift */,
-			);
-			path = AllTrailsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +190,11 @@
 			dependencies = (
 			);
 			name = AllTrails;
+			packageProductDependencies = (
+				1E8B568B2811EAEB00D1792C /* Core */,
+				1E8B568D2811EAEB00D1792C /* Restaurants */,
+				1E8B568F2811EAEB00D1792C /* UI */,
+			);
 			productName = AllTrails;
 			productReference = 1EF20DCD280F65190058734B /* AllTrails.app */;
 			productType = "com.apple.product-type.application";
@@ -171,24 +217,6 @@
 			productReference = 1EF20DE2280F651A0058734B /* AllTrailsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1EF20DEB280F651A0058734B /* AllTrailsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF20DFC280F651A0058734B /* Build configuration list for PBXNativeTarget "AllTrailsUITests" */;
-			buildPhases = (
-				1EF20DE8280F651A0058734B /* Sources */,
-				1EF20DE9280F651A0058734B /* Frameworks */,
-				1EF20DEA280F651A0058734B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1EF20DEE280F651A0058734B /* PBXTargetDependency */,
-			);
-			name = AllTrailsUITests;
-			productName = AllTrailsUITests;
-			productReference = 1EF20DEC280F651A0058734B /* AllTrailsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,10 +231,6 @@
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					1EF20DE1280F651A0058734B = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 1EF20DCC280F65190058734B;
-					};
-					1EF20DEB280F651A0058734B = {
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = 1EF20DCC280F65190058734B;
 					};
@@ -227,7 +251,6 @@
 			targets = (
 				1EF20DCC280F65190058734B /* AllTrails */,
 				1EF20DE1280F651A0058734B /* AllTrailsTests */,
-				1EF20DEB280F651A0058734B /* AllTrailsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,13 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1EF20DEA280F651A0058734B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF20DDA280F65190058734B /* Persistence.swift in Sources */,
 				1EF20DD3280F65190058734B /* ContentView.swift in Sources */,
-				1EF20DDD280F65190058734B /* AllTrails.xcdatamodeld in Sources */,
+				1EE49FA728148D43005AF2C8 /* Print.swift in Sources */,
+				1E97F3DE281380E9005C6239 /* Restaurants+ViewModel.swift in Sources */,
+				1EEFAE3A281382D900A23D41 /* UpdateLocationAndSearchNearbyRestaurantsUseCase.swift in Sources */,
+				1E0C335D28137B4A00E40A05 /* UpdateLocationAndGetNearbyRestaurantsUseCase.swift in Sources */,
 				1EF20DD1280F65190058734B /* AllTrailsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,16 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF20DE7280F651A0058734B /* AllTrailsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1EF20DE8280F651A0058734B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EF20DF1280F651A0058734B /* AllTrailsUITests.swift in Sources */,
-				1EF20DF3280F651A0058734B /* AllTrailsUITestsLaunchTests.swift in Sources */,
+				1E4EBD41281457C700F70896 /* UpdateLocationAndGetNearbyRestaurantsUseCaseTests.swift in Sources */,
+				1E4EBD4328146CF000F70896 /* UpdateLocationAndSearchNearbyRestaurantsUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +304,6 @@
 			isa = PBXTargetDependency;
 			target = 1EF20DCC280F65190058734B /* AllTrails */;
 			targetProxy = 1EF20DE3280F651A0058734B /* PBXContainerItemProxy */;
-		};
-		1EF20DEE280F651A0058734B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1EF20DCC280F65190058734B /* AllTrails */;
-			targetProxy = 1EF20DED280F651A0058734B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -428,6 +433,7 @@
 				DEVELOPMENT_TEAM = P7LU4G83GL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need permission track your location to give you restaurants nearby";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +463,7 @@
 				DEVELOPMENT_TEAM = P7LU4G83GL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need permission track your location to give you restaurants nearby";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -515,42 +522,6 @@
 			};
 			name = Release;
 		};
-		1EF20DFD280F651A0058734B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P7LU4G83GL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.homework.AllTrailsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AllTrails;
-			};
-			name = Debug;
-		};
-		1EF20DFE280F651A0058734B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P7LU4G83GL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.homework.AllTrailsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AllTrails;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,29 +552,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EF20DFC280F651A0058734B /* Build configuration list for PBXNativeTarget "AllTrailsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EF20DFD280F651A0058734B /* Debug */,
-				1EF20DFE280F651A0058734B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		1EF20DDB280F65190058734B /* AllTrails.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1EF20DDC280F65190058734B /* AllTrails.xcdatamodel */,
-			);
-			currentVersion = 1EF20DDC280F65190058734B /* AllTrails.xcdatamodel */;
-			path = AllTrails.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCSwiftPackageProductDependency section */
+		1E8B568B2811EAEB00D1792C /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
 		};
-/* End XCVersionGroup section */
+		1E8B568D2811EAEB00D1792C /* Restaurants */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Restaurants;
+		};
+		1E8B568F2811EAEB00D1792C /* UI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EF20DC5280F65190058734B /* Project object */;
 }
